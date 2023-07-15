@@ -4,6 +4,8 @@ import Cycles.cycle;
 import Cycles.cycle_DoWhile;
 import Cycles.cycle_while;
 
+import java.util.Scanner;
+
 public class Main_Cycles {
     public static void main(String[] args) {
         cycle one= new cycle();
@@ -21,5 +23,17 @@ public class Main_Cycles {
         three.to_star=7;
         three.to_end=21;
         three.Show_cycle();
+
+        Ternary_operator operator= new Ternary_operator();
+        operator.to_start=1;
+        operator.to_start2=true;
+        System.out.println(operator.Show_message());
+
+        Switch_Case switchCase= new Switch_Case();
+
+        Scanner reader= new Scanner(System.in);
+        System.out.println("please enter an option");
+        switchCase.option=reader.nextInt();
+        System.out.println(switchCase.Show_Option());
     }
 }

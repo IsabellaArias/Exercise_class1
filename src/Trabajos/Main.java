@@ -42,3 +42,4 @@ public class Main {
         + "\n Salary:"+ details.salary + "\n Money Saved:"+ details.money_Saved + "\n Approximate Height:"+ details.approximate_Height+ "\n Number i hate:"+ details.number_i_hate);
     }
     }
+
